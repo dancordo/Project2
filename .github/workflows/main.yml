@@ -21,6 +21,10 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
+    # این مرحله فایل گم‌شده رو به صورت خودکار می‌سازه
+    - name: Create local.properties
+      run: echo "sdk.dir=/usr/local/lib/android/sdk" > local.properties
+
     - name: Build with Gradle
       run: gradle assembleDebug
 
