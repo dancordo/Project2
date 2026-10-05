@@ -1,0 +1,6 @@
+{
+  "name": "Futures Edge AI",
+  "description": "Advanced AI-powered crypto perpetual futures market intelligence and trading analysis terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
